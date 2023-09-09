@@ -1,0 +1,492 @@
+body {
+    background-color:rgb(49,53,57) ;
+}
+.sizeicon {
+    width: 30px;
+}
+#myVideo {
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    /* Height: 450px; */
+    color:black;
+    opacity: 0.7;  
+    padding: 10px;
+    
+    }
+    .setvideo {
+        flex: 1;
+    }
+    
+.heading, .headingTwo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left:40px;
+    margin-top: 25px;
+}
+
+h1 {
+    color: #FFF3E4;
+    font-family: 'Unica One', cursive;
+    font-size: 50px;
+}
+.invitadd {
+    align-items: center;
+    color: #FFF3E4;
+    font-size: 30px;
+    font-family: 'Vollkorn', serif;
+    flex-wrap: wrap;
+    margin: 20px ;
+    /* padding: 20px; */
+}
+
+/* copy code */
+.container {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left:40px;
+}
+
+.jetExpo {
+    background-color: rgba(251, 248, 249, 0.82);
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Unica One', cursive;
+    font-size: 30px;  
+}
+
+.days, .hours, .minutes, .seconds {
+    font-family: 'Unica One', cursive;
+    font-size: 40px;  
+}
+
+.red {
+    text-align: center;
+    border: none;
+    font-family: 'Unica One', cursive;
+    font-size: 50px;
+    background: linear-gradient(to left, #483434, #FFF3E4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#myButton {
+    margin-left: 100px;
+    border: none;
+}
+
+
+/* slides fleet */
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Unica One', cursive;
+    font-size: 45px;
+    color: #DFD3C3;
+    background: linear-gradient(to right, #FFF3E4, black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.item {
+height: 90vh;
+background-size: cover;
+background-position: center;
+font-family: 'Unica One', cursive;
+flex:1;
+margin: 5px;
+position: relative;
+
+}
+.headOne {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    right: 10px;
+    background-color: #000;
+    color: #DFD3C3;
+    opacity: 0.7;
+    border-radius: 2px; 
+    
+    font-size: 0;
+}
+.headOne:hover {
+    background-color: #FFFAFA;
+    color: black;
+    opacity: 0.7;
+    border-radius: 2px;
+    
+}
+
+.selected .headOne {
+    font-size: 25px;
+    transition: all ease-in 1s;
+    padding: 3px;
+}
+.selected .par {
+    font-size: 20px;
+    transition: all ease-in 1s;
+    padding: 3px;
+}
+
+.par {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    right: 10px;
+    color: #DFD3C3;
+    background-color: #000;
+    opacity: 0.7;
+    border-radius: 1px;
+    font-size: 0;
+    
+}
+.par:hover {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFAFA;
+    color: black;
+    opacity: 0.7;
+    border-radius: 1px;
+    
+}
+
+.containerSlides {
+    display: flex;
+}
+
+/* .btn-1 {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    width: 130px;
+    height: 35px;
+    border: none;
+    color: #DFD3C3;
+    background-color: #000;
+    opacity: 0.7;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #ffeaa7;
+    transition: ease-out 0.3s;
+    font-size: 15px;
+    outline: none;
+    letter-spacing: 4px;
+    
+}
+.btn-1:hover {
+    box-shadow: 5px 10px #ffeaa7;
+    cursor:pointer;
+    color: white;
+} */
+
+.selected {
+    flex: 4;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #DFD3C3;
+}
+
+.text-input {
+    background-image: linear-gradient(to right, black,#FFF3E4);
+border: none;
+padding: 12px 20px;
+color:#DFD3C3;
+}
+
+.btn-2 {
+
+width: 150px;
+height: 40px;
+border: none;
+color: #DFD3C3;
+background-color: #000;
+opacity: 0.7;
+border-radius: 4px;
+box-shadow: 3px 3px #ffeaa7;
+transition: ease-out 0.3s;
+font-size: 15px;
+outline: none;
+letter-spacing: 4px;
+flex: 1;
+}
+
+.btn-2:hover {
+    
+    cursor:pointer;
+    color: white;
+}
+
+.desapear {
+    display: none;
+}
+
+/* .btn-1{
+    display: none;   
+} */
+ 
+.selected .btn-1 {
+    display: block;
+}
+
+/*  */
+
+.btn-3 {
+    display: none; 
+}
+.selected .btn-3 {
+    display: block;
+   /* transition: all ease-in 1s; */
+   
+}
+
+.btn-3 {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    background-color: #000;
+    /* display: block; */
+    color: white;
+    font-size: 13px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 20px 0;
+    opacity: 0.7;
+    padding: 8px 21px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    letter-spacing: 4px;
+  }
+
+  .btn-3::before{
+    background: #FFF3E4;
+    opacity: 0.8;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+    border-radius: 3px;
+    /* transition: ease-out 0.3s; */
+  }
+  
+  .btn1-3::before{
+    width: 0%;
+    height: 100%;
+  }
+  
+  .btn1-3:hover::before{
+    width: 100%;
+  }
+  
+/*  */
+
+
+.one {
+background-image: url(IMG_6081.PNG);
+}
+.two {
+    background-image: url(phenom300.1.PNG);
+}
+.three {
+    background-image: url(phenom100.5.jpg);
+}
+.four {
+    background-image: url(IMG_6084.PNG);
+}
+.five {
+    background-image: url(IMG_6082.PNG);
+}
+.six {
+    background-image: url(proetor600.5.PNG);
+}
+
+
+/* end slides fleet */
+
+/* footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(49,53,57);
+    color: white;
+    text-align: center;
+    font-family: "montserrat";
+    letter-spacing: 4px;
+    font-size: 10px;;
+ } 
+
+@media all and (max-width: 800px) {
+
+    .invitadd {
+        font-size: 20px;
+    }
+
+    .container {
+        display: flex; 
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left:40px;
+    }
+    
+    
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h3 {
+        font-family: 'Unica One', cursive;
+        font-size: 25px;  
+    }
+
+
+    .containerSlides {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+h1 {
+font-size: 40px;
+}
+
+.red {
+    text-align: center;
+    font-size: 40px;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-family: 'Unica One', cursive;
+    font-size: 30px;  
+}
+.jetExpo {
+    height: 250px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+/* slides adapt */
+
+    h2 {
+            font-size: 30px;
+    }
+    .selected .headOne {
+        font-size: 20px;
+        
+    }
+    .selected .par {
+        font-size: 15px;
+    }
+    
+    /* .btn-1 {
+        
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    } */
+    label {
+        font-size: 25px;
+    }
+    .text-input {
+    padding: 10px 17px;
+    }
+    }
+    
+
+@media all and (max-width: 500px) {
+
+    #myVideo {
+            position: relative;
+        Width: 100%;
+        Height: 450px;
+        color:black;
+        opacity: 0.7;
+          
+        }
+    .invitadd {
+        font-size: 13px;
+    }
+
+    .containerSlides {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    h1 {
+    font-size: 30px;
+    }
+
+    .red {
+        text-align: center;
+        font-size: 20px;
+    }
+    .jetExpo {
+        height: 200px;
+        width: 100px;
+        margin-top: 10px;
+    }
+    
+
+    /* adapt slides */
+ 
+        h2 {
+                font-size: 20px;
+        }
+        .selected .headOne {
+            font-size: 13px;
+            
+        }
+        .selected .par {
+            font-size: 10px;
+        }
+        
+        /* .btn-1 {
+            
+            width: 90px;
+            height: 25px;
+            font-size: 13px;
+        } */
+
+        .btn-3 {
+            left: 30%;
+            font-size: 10px;
+          }
+        label {
+            font-size: 20px;
+            
+        }
+        .text-input {
+            padding: 10px 15px;
+            }
+           
+        }
+
